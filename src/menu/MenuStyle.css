@@ -1,0 +1,153 @@
+td {
+    padding: 0px;
+    margin: 0px;
+    font-family: "golestan system", tahoma;
+}
+
+.dir {
+    font-size: 10px;
+    color: rgb(0, 9, 134);
+}
+
+.DivMenu {
+    border-width: thin;
+    border-style: outset;
+    border-color: initial;
+    position: absolute;
+    background-color: rgb(230, 230, 230);
+}
+
+.mess {
+    font-size: 12px;
+    color: rgb(129, 20, 11);
+    border-collapse: collapse;
+    background-color: rgb(245, 251, 233);
+}
+
+.menuTex {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    height: 20px;
+}
+
+.HiMen {
+    background-color: rgb(245, 251, 233);
+    color: rgb(129, 20, 11);
+}
+
+.menuHi {
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(51, 51, 51);
+    background: rgb(245, 251, 233);
+}
+
+.gt0 {
+    padding: 2px;
+    margin: 2px;
+    border: 1px solid rgb(249, 248, 244);
+    color: black;
+    cursor: default;
+}
+
+.gt1 {
+    padding: 2px;
+    margin: 2px;
+    border: 1px solid rgb(135, 158, 172);
+    color: black;
+    cursor: default;
+}
+
+.gt2 {
+    padding: 2px;
+    margin: 2px;
+    border: 1px solid rgb(255, 194, 50);
+    color: black;
+    cursor: default;
+}
+
+.box {
+    border-width: 2px;
+    border-style: outset;
+    border-color: initial;
+    padding: 2px;
+    color: black;
+    background-color: rgb(249, 248, 244);
+}
+
+body {
+    padding: 0px;
+    font-size: 8pt;
+    margin: 0px;
+    color: black;
+    background-color: rgb(236, 233, 216);
+}
+
+.mbarCustom {
+    background-image: url("../assets/images/tabs.png");
+    cursor: default;
+    height: 20px;
+    display: inline-block;
+}
+.mbar {
+    background-image: url("../assets/images/tabs.png");
+    cursor: default;
+}
+
+.mbarcorp0 {
+    background-position: 0px -50px;
+    border-bottom: 1px solid rgb(135, 158, 172);
+}
+
+.mbarcorp1 {
+    background-position: 0px -100px;
+    border-bottom: 1px solid rgb(135, 158, 172);
+}
+
+.mbarcorp2 {
+    background-position: 0px -200px;
+    border-bottom: 1px solid rgb(249, 248, 244);
+}
+
+.mbarcorpbody {
+    background-position: -5px -53px;
+    font-size: 9px;
+}
+
+.mbarcorpbodyr {
+    background-position: 100% -53px;
+}
+
+.mbarcorpbodyl {
+    background-position: 0px -3px;
+}
+
+.mbargt0 {
+    color: black;
+    background-position: 100% -50px;
+    font-size: 10px;
+    height: 20px;
+    padding-top: 5px;
+    padding-right: 6px;
+    border-bottom: 1px solid rgb(135, 158, 172);
+}
+
+.mbargt1 {
+    color: black;
+    background-position: 100% -150px;
+    font-size: 10px;
+    height: 20px;
+    padding-top: 5px;
+    padding-right: 6px;
+    border-bottom: 1px solid rgb(135, 158, 172);
+}
+
+.mbargt2 {
+    color: black;
+    background-position: 100% -250px;
+    font-size: 10px;
+    height: 20px;
+    padding-top: 5px;
+    padding-right: 6px;
+    border-bottom: 1px solid rgb(249, 248, 244);
+}

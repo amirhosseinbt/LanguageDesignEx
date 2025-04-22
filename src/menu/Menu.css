@@ -1,0 +1,167 @@
+
+TD
+{
+	padding: 0px;
+	margin: 0px;
+	font-family: tahoma;
+}
+.dir
+{font-size: 10px;COLOR: #000986;
+}
+
+.DivMenu
+{
+	border-right: thin outset;
+	border-top: thin outset;
+	border-left: thin outset;
+	border-bottom: thin outset;
+	position: absolute;
+	background-color: #e6e6e6;
+}
+TABLE
+{
+	color: #000000;
+}
+.mess
+{
+	font-size: 12px;
+	color: #81140b;
+	border-collapse: collapse;
+	background-color: #f5fbe9;
+}
+.menuTex
+{
+	padding-bottom: 5px;
+	padding-top: 5px;
+	height: 20px;
+}
+.HiMen{
+	background-color: #f5fbe9;
+	color: #81140b;
+}
+.menuHi
+{
+	border-right: #333333 2px solid;
+	border-top: #333333 2px solid;
+	background: #f5fbe9;
+	background: #e5eef9;
+	border-left: #333333 2px solid;
+	border-bottom: #333333 2px solid;
+}
+.gt0
+{	
+	padding: 2px;
+	margin: 2px;
+	border: solid 1px #F9F8F4;
+	color:Black;
+	cursor:default;
+}
+.gt1
+{	
+	padding: 2px;
+	margin: 2px;
+	border: #879EAC 1px solid;
+	color:Black;
+	background:  #efefef;
+	cursor:default;
+}
+.gt2
+{	padding: 2px;
+	margin: 2px;
+
+	border: solid 1px #FFC232;
+	color:Black;
+	background: #f5fbe9;
+	cursor:default;
+}
+.box
+{
+	border-right: 2px outset;
+	padding-right: 2px;
+	border-top: 2px outset;
+	padding-left: 2px;
+	padding-bottom: 2px;
+	border-left: 2px outset;
+	color: black;
+	padding-top: 2px;
+	border-bottom: 2px outset;
+	background-color: F9F8F4;
+}
+BODY
+{
+	padding-right: 0px;
+	padding-left: 0px;
+	font-size: 8pt;
+	padding-bottom: 0px;
+	margin: 0px;
+	color:black;
+	padding-top: 0px;
+	background-color:#ECE9D8;
+}
+
+.mbar
+{
+	cursor:default;
+}
+.mbarcorp0
+{
+	background-position:0px -50px;
+    border-bottom:SOLID 1PX #879EAC;
+}
+.mbarcorp1
+{
+	background-position:0px -100px;
+    border-bottom:SOLID 1PX #879EAC;
+}
+.mbarcorp2
+{
+	background-position:0px -200px;
+    border-bottom:SOLID 1PX #F9F8F4;
+}
+.mbarcorpbody
+{
+	background-position:-5px -53px;
+	text-align:bottom;
+	font-size:9px;
+}
+.mbarcorpbodyr
+{
+	background-position:100% -53px;
+	text-align:center;
+}
+.mbarcorpbodyl
+{
+	background-position:0 -3px;
+	text-align:center;
+}
+
+.mbargt0
+{	
+	color:black;
+	background-position:100% -50;
+    font-size:10px;
+    height:20px;
+    padding-top:5px;
+    padding-right:6px;
+    border-bottom:SOLID 1PX #879EAC;
+}
+.mbargt1
+{	
+	color:Black;
+	background-position:100% -150;
+    font-size:10px;
+    height:20px;
+    padding-top:5px;
+    padding-right:6px;
+    border-bottom:SOLID 1PX #879EAC;
+}
+.mbargt2
+{	
+	color:black;
+	background-position:100% -250;
+    font-size:10px;
+    height:20px;
+    padding-top:5px;
+    padding-right:6px;
+    border-bottom:SOLID 1PX #F9F8F4;
+}

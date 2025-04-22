@@ -1,0 +1,114 @@
+td{
+    box-sizing:border-box;
+ }
+ table
+ {
+    width:100%;
+     font-size:8pt;
+     font-family: 'Golestan System',tahoma;
+ }
+ .TableHeaderClass
+ {
+     border-right: black thin outset;
+     border-top: black thin outset;
+     font-size: 8pt;
+     border-left: black thin outset;
+     font-family: 'Golestan System',tahoma;
+     background-color: silver;
+ }
+ .TableHeaderClassNoLine
+ {
+     font-size: 8pt;
+     font-family: 'Golestan System',tahoma;
+     background-color: silver;
+ }
+ 
+ TD.TDHeader
+ {
+     font-size: 8pt;
+     border-top-style: outset;
+     font-family: 'Golestan System',tahoma;
+     border-right-style: outset;
+     border-left-style: outset;
+     background-color: #d6d3ce;
+     border-bottom-style: outset;
+ }
+ TD.TDHeaderNoLine
+ {
+     font-size: 8pt;
+     font-family: 'Golestan System',tahoma;
+     background-color: #d6d3ce;
+ }
+ 
+ .TableTit
+ {
+     font-size: 8pt;
+     color: white;
+     font-family: 'Golestan System',tahoma;
+     background-color: #24479d;
+ }	
+ .TableBodyClass
+ {
+     font-size: 8pt;
+     cursor: hand;
+     color: #001490;
+     font-family: 'Golestan System',tahoma;
+     background-color: #e2f2f2;
+     /*height:inherit;*/
+ }
+ .DivBodyClass
+ {
+     border-right: black thin solid;
+     border-top: black thin solid;
+     border-left: black thin solid;
+     border-bottom: black thin solid;
+ }
+ .HighlightTRClass
+ {
+     border-right: 1px solid;
+     border-top: 1px solid;
+     border-left: 1px solid;
+     cursor: hand;
+     color: #ffffff;
+     border-bottom: 1px solid;
+     background-color: #0a246a;
+ }
+ .HighlightTRClassNoLine
+ {
+     cursor: hand;
+     color: #ffffff;
+     background-color: #0a246a;
+ }
+ 
+ .HighlightTDClass
+ {
+     color: #0000cc;
+ }
+ TD.D
+ {
+     padding: 2px;
+     overflow: hidden;
+     TEXT-OVERFLOW: ellipsis;
+ }
+ TD.DH
+ {
+    padding: 0px;
+    overflow: hidden;
+    TEXT-OVERFLOW: ellipsis;
+ }
+ TD.Data
+ {
+     padding: 2px;
+     text-justify:inter-word;
+     text-align: justify;
+ }
+ TD.LData
+ {
+     padding: 2px;
+     font-family:tahoma;
+ }
+ P{
+     margin-top: 0; margin-bottom: 0;
+     text-indent: 20;
+ }
+ 

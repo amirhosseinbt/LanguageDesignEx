@@ -4,7 +4,6 @@ const Box = (props) => {
     const toggleNested = (id) =>
     {
         setShowNested({[id]:!showNested[id]});
-        console.log(showNested);
     } 
     
   return (
@@ -14,9 +13,9 @@ const Box = (props) => {
         <table style={{ width: "120px" }}>
           <tbody>
             {
-                props.data.map(parent=>{
+                props.data.map((parent,index)=>{
                     return(
-                            <tr className="gt0">
+                            <tr key={index} className="gt0">
                             <td
                                 className={`gt0 ${showNested[parent.id]?'gt2':''}`}
                                 onClick={()=>toggleNested(parent.id)}>
@@ -27,7 +26,7 @@ const Box = (props) => {
                                 style={{fontFamily:'arial',fontSize:'9px',color:'#dddddd'}}>
                                 ◄
                             </td>}
-                            {showNested[parent.id]? parent.children && <Box data={parent.children} />:null}
+                            {showNested[parent.id]? parent.children && <Box key={index} data={parent.children} />:null}
                          </tr>
                     );
                 })

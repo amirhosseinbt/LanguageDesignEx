@@ -313,3 +313,6 @@ export const  data5 =[
         ]
     }
 ]
+export const dataStudent={
+    name:' امیرحسین براتی '
+}
